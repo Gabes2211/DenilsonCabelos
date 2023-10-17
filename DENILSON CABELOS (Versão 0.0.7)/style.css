@@ -1,0 +1,196 @@
+body{
+/*background: linear-gradient(to bottom, rgb(161, 255, 95), rgb(255, 255, 255));*/
+background-color: lavender;
+color: rgb(5, 5, 5);
+}
+
+.tabelas{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.th,td,tr{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.main_title a{
+    color: black;
+    font-size: 250%;
+    text-decoration: none;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.social_media img{
+    width: 2%;
+    height: 2%;
+}
+
+.social_media a{
+    color: black;
+    background-color: #00ccff;
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.social_media{
+    right: auto;
+    width: 98%;
+    padding: 0.8%;
+    color: black;
+    text-align: right;
+    border-radius: 5px;
+    position: top;
+    background-color: #0099ff;
+    margin-bottom: 0.2%;
+    align-items: center;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 0.75%;
+    border-radius: 10px;
+    flex: none;
+    text-decoration: none;
+    word-wrap: break-word;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.menu a:hover{
+    color: white;
+    background-color: red;
+}
+
+.menu{
+    padding: 2%;
+    background-color: palegreen;
+    text-align: center;
+    top: auto;
+    left: auto;
+    right: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .625rem;
+}
+
+.artigo{/*Os artigos, ou textos podem ter só uma estilização; Economiza espaço*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.denilson_funcionario{
+    margin-top: 2%;
+    text-align: left;
+    padding: 5%;
+    background-color: palegreen;/*Não apagar; Como cada cor é diferente cada um tem que ter a sua esilização*/
+    border-radius: 15px;
+}
+
+.valmon_funcionario{
+    margin-top: 2%;
+    text-align: left;
+    padding: 5%;
+    background-color: lightblue;/*Não apagar; Como cada cor é diferente cada um tem que ter a sua esilização*/
+    border-radius: 15px;
+}
+
+.denilson_funcionario img{
+    width: 40%;
+    display: block;/*Transforma numm bloco para ocupar todo espaço disponivel*/
+    margin: 0 auto; /*Define horizontal auto, para centralizar*/
+}
+
+.valmon_funcionario img{
+    width: 40%;
+    display: block;/*Transforma numm bloco para ocupar todo espaço disponivel*/
+    margin: 0 auto; /*Define horizontal auto, para centralizar*/
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    padding: 0.1%;
+    margin-top: 10px;
+}
+
+footer a{
+    padding: 1%;
+}
+
+@media (max-width:720px)
+{
+ .menu{
+    flex-direction: column;
+ }
+}
+
+/*estilização; blog;*/
+.container{
+    background-color: whitesmoke;
+    border-radius: 4px;
+}
+
+/* Estilização para a div "leia_mais" */
+.leia_mais {
+    float: right;
+    width: 30%; /* Ajuste a largura conforme necessário */
+    height: 60%;
+    border: solid green;
+    border-radius: 4px;
+    margin: 1% 1% 1% 1%;
+}
+
+/* Estilização para a div "postagens" */
+.postagens {
+    width: 65%; /* Ajuste a largura conforme necessário */
+    border: solid orangered;
+    border-radius: 4px;
+    margin: 1% 1% 1% 1%;
+}
+
+/* Estilização para o link dentro de "postagens" */
+.postagens a {
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+}
+
+/*artigos do blog*/
+
+.titulo_artigo{
+    font-size: 200%;
+}
+
+.artigos{
+    border-radius: 5px;
+    border: solid;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 0% 2% 0%;
+}
+
+.artigos p{
+    font-size: 130%;
+}
+
+#artigos_titulo{
+    font-size: 250%;
+}
+
+.agenda{
+    text-align: center;
+}
